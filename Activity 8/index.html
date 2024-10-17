@@ -18,6 +18,9 @@
         border-radius: 5px;
       }
     </style>
+
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <h1>Activity 8: the audio tag + events</h1>
@@ -29,18 +32,17 @@
     </ul>
 
     <ol>
-      <li>music1.mp3</li>
-      <li>music2.mp3</li>
-      <li>music3.mp3</li>
+      <li id="musci1">music1.mp3</li>
+      <li id="musci2">music2.mp3</li>
+      <li id="musci3">music3.mp3</li>
     </ol>
-    <audio>
-     <source src="" type="audio/mpeg">
-     Your browser does not support the audio tag.
+    <audio controls src="Brasil.ogg" id="audioPlayer">
+      Your browser does not support the audio tag.
     </audio>
     <div class="controls">
       <div class="play"><i class="fa fa-play"></i></div>
       <div class="backward"><i class="fa fa-step-backward"></i></div>
-      <div class="fordward"><i class="fa fa-step-forward"></i></div>
+      <div class="forward"><i class="fa fa-step-forward"></i></div>
     </div>
   </body>
 </html>

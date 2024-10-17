@@ -1,0 +1,32 @@
+#game__container{
+    width: 100%;
+    height: 25vh;
+    background-image: url("images/dunes.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#brick__container{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    display: inline-block;
+}
+
+#brick__container img{
+    width: 100%;
+    padding: 10px;
+}
+
+#start__game{
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#start__game button{
+    width: 50%;
+    height: 100%;
+}

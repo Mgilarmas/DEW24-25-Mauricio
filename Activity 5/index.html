@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <script src="main.js"></script>
     <title>Activity 5: Forms &amp; click event</title>
   </head>
   <body>
@@ -19,5 +20,13 @@
         <li>Add a table with as many rows and columns both Rows and Columns fields indicate</li>
         <li>Each table cell must contain a text like: "Row: X, Col: Y"</li>
       </ol>
+
+      <form action="" onsubmit="createTable(event)">
+        <label>Rows:<input type="number" id="inputRow"></label>
+        <label>Columns:<input type="number" id="inputColumn"></label>
+        <input type="submit">
+      </form>
+      
+      <div id="table-container"></div>
   </body>
 </html>
